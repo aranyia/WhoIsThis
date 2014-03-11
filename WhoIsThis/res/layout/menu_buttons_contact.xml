@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+	<Button android:layout_height="wrap_content" android:layout_weight="0.33" android:text="Call History" android:id="@+id/Button_CallHistory" android:layout_width="wrap_content" android:background="@drawable/button_bg"  android:padding="8dp" android:drawableTop="@drawable/call_incoming" android:layout_margin="4dp"/>
+	<Button android:layout_height="wrap_content" android:layout_weight="0.33" android:text="Statistics" android:id="@+id/Button_CallStatistics" android:layout_width="wrap_content" android:background="@drawable/button_bg" android:padding="8dp" android:drawableTop="@drawable/call_outgoing" android:layout_margin="4dp"/>
+	<Button android:layout_height="wrap_content" android:layout_weight="0.33" android:text="Facebook" android:id="@+id/Button_Facebook" android:layout_width="wrap_content" android:background="@drawable/button_bg" android:padding="8dp" android:drawableTop="@drawable/call_missed" android:layout_margin="4dp"/>
+
+</LinearLayout>
+

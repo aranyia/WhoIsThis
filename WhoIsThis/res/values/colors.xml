@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="bg_color1">#ffeeeeee</color>
+   <color name="bg_color2">#ffaaaaaa</color>
+   <color name="text_color">#ffbb2b2b</color>
+   <color name="border_color">#ffbb2b2b</color>
+   <color name="incoming">#0099FF</color>
+   <color name="outgoing">#00CC00</color>
+   <color name="missed">#FF0000</color>
+   <color name="unanswered">#D8DD15</color>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="MainTheme" parent="android:Theme">
+		<item name="android:textColorPrimary">#000000</item>
+		<item name="android:windowBackground">@drawable/gradient</item>
+        <item name="android:textColorSecondary">#444444</item>
+        <item name="android:textColorTertiary">#888888</item>
+</style>
+</resources>

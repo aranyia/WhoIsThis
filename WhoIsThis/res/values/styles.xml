@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="TextAppearanceMedium">
+         <item name="android:textSize">14sp</item>
+         <item name="android:textStyle">normal</item>
+         <item name="android:textColor">@color/text_color</item>
+         <item name="android:padding">6px</item>
+         <item name="android:layout_marginLeft">8dp</item>
+</style>
+<style name="Button">
+		 <item name="android:padding">6dp</item>
+		 <item name="android:layout_margin">4dp</item>
+		 <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_height">match_parent</item>
+         <item name="android:layout_weight">0.33</item>
+         <item name="android:background">@drawable/button_bg</item>
+</style>
+<style name="ContactCategory">
+         <item name="android:textSize">12dp</item>
+         <item name="android:textStyle">bold</item>
+         <item name="android:padding">5dp</item>
+         <item name="android:textColor">@color/text_color</item>
+</style>
+<style name="ContactData">
+         <item name="android:textSize">14sp</item>
+         <item name="android:textStyle">normal</item>
+         <item name="android:padding">6px</item>
+         <item name="android:textColor">@android:color/black</item>
+</style>
+<style name="CallStatBox">
+         <item name="android:textSize">12sp</item>
+         <item name="android:textStyle">bold</item>
+         <item name="android:layout_width">wrap_content</item>
+         <item name="android:layout_height">wrap_content</item>
+</style>
+<style name="CallStatBox.Image">
+         <item name="android:layout_marginLeft">4dp</item>
+         <item name="android:layout_width">40dp</item>
+         <item name="android:layout_height">38dp</item>
+         <item name="android:padding">2dp</item>
+</style>
+<style name="CallStatBox.Title">
+		<item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">14sp</item>
+</style>
+<style name="CallStatBox.Count">
+        <item name="android:textColor">@color/text_color</item>
+		<item name="android:textSize">22sp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_gravity">right</item>
+</style>
+<style name="CallStatBox.Text">
+		<item name="android:paddingBottom">4dp</item>
+		<item name="android:paddingLeft">8dp</item>
+		<item name="android:paddingRight">8dp</item>
+		<item name="android:layout_gravity">left</item>
+		<item name="android:textStyle">normal</item>
+</style>
+<style name="CallStatBox.Data">
+		<item name="android:paddingRight">8dp</item>
+		<item name="android:gravity">right</item>
+		<item name="android:textSize">13sp</item>
+		<item name="android:textStyle">bold</item>
+</style>
+<style name="CallStatBox.Text.Piechart">
+		<item name="android:paddingTop">6dp</item>
+		<item name="android:paddingBottom">4dp</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textColor">@color/text_color</item>
+		<item name="android:textStyle">bold</item>
+</style>
+</resources>

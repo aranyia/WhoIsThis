@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Who Is This</string>
+    <string-array name="timeunit">
+    	<item>week</item>
+    	<item>day</item>
+    	<item>hour</item>
+    	<item>minute</item>
+    	<item>weeks</item>
+    	<item>days</item>
+    	<item>hours</item>
+    	<item>minutes</item>    	
+    </string-array>
+    <string-array name="call_types">
+    	<item>0</item>
+    	<item>Incoming</item>
+    	<item>Outgoing</item>
+    	<item>Missed</item>
+    </string-array>
+    <string-array name="phone_types">
+		<item>TYPE_CUSTOM</item>
+    	<item>Home</item>
+    	<item>Mobile</item>
+    	<item>Work</item>
+    	<item>Fax Work</item>
+    	<item>Fax Home</item>
+    	<item>Pager</item>
+    	<item>Other</item>
+    	<item>Callback</item>
+    	<item>Car</item>
+    	<item>Company Main</item>
+    	<item>ISDN</item>
+    	<item>Main</item>
+    	<item>Other Fax</item>
+    	<item>Radio</item>
+    	<item>Telex</item>
+    	<item>TTY/TDD</item>
+    	<item>Work Mobile</item>
+    	<item>Work Pager</item>
+    	<item>Assistant</item>
+    	<item>MMS</item>    	
+    </string-array>
+    <string-array name="email_types">
+		<item>TYPE_CUSTOM</item>
+		<item>Home</item>
+		<item>Work</item>
+		<item>Other</item>
+		<item>Mobile</item>
+    </string-array>
+    <string-array name="address_and_im_types">
+		<item>TYPE_CUSTOM</item>
+		<item>Home</item>
+		<item>Work</item>
+		<item>Other</item>
+    </string-array>
+    <string-array name="im_protocol">
+        <item>PROTOCOL_CUSTOM</item>
+    	<item>AIM</item>
+   		<item>MSN</item>
+    	<item>Yahoo</item>
+    	<item>Skype</item>
+    	<item>QQ</item>
+    	<item>Google Talk</item>
+    	<item>ICQ</item>
+    	<item>Jabber</item>
+    	<item>NetMeeting</item>    
+    </string-array>
+    
+<string name="Category_Phone">Phone Numbers</string>
+<string name="Category_Email">E-mail Addresses</string>
+<string name="Category_IM">Instant Messaging</string>
+<string name="Category_Address">Postal Address</string>
+<string name="Category_Note">Notes</string>
+<string name="Category_Organization">Organization</string>
+
+<string name="Button_CallHistory">Call History</string>
+<string name="Button_Statistics">Statistics</string>
+<string name="Button_Facebook">Facebook</string>
+
+<string name="Msg_CollecingContacts">Collecting contacts data.\nPlease wait...</string>
+<string name="Msg_Dial">Dialing</string>
+<string name="Msg_ComposeEmail">Composing mail to</string>
+<string name="Msg_NoData">No data.</string>
+
+<string name="Incoming">Incoming</string>
+<string name="Outgoing">Outgoing</string>
+<string name="Missed">Missed</string>
+<string name="Sum_Incoming">All</string>
+<string name="Sum_Outgoing">All</string>
+<string name="Average_Incoming">Average</string>
+<string name="Average_Outgoing">Average</string>
+<string name="FailedOutgoing">Unanswered</string>
+<string name="missedLabel">Missed Calls</string>
+<string name="outgoingLabel">Outgoing Calls</string>
+<string name="incomingLabel">Incoming Calls</string>
+</resources>

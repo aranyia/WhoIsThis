@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:shrinkColumns="1"
+  android:stretchColumns="0">
+<TableRow>
+  <include layout="@layout/contact_statistics"/>
+  <LinearLayout
+  	android:layout_width="wrap_content"
+  	android:layout_height="fill_parent"
+  	android:layout_gravity="right"
+  	android:orientation="vertical"
+  	android:paddingTop="7dp"
+  	android:paddingBottom="7dp">
+	<include layout="@layout/menu_button_callhistory"/>
+	<include layout="@layout/menu_button_stats"/>
+	<include layout="@layout/menu_button_facebook"/>
+  </LinearLayout>
+</TableRow>
+</TableLayout>

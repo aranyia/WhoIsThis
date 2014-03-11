@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  theme = "@style/MainTheme"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:padding="12dp"
+  android:orientation="vertical">
+<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+<TableRow>
+ <LinearLayout
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:orientation="vertical"
+  	android:layout_weight="0.5"
+  	android:background="@drawable/contact_content_category"
+  	android:paddingBottom="4dp">
+ 	<LinearLayout   
+ 	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:orientation="horizontal">
+  		<ImageView style="@style/CallStatBox.Image" android:src="@drawable/call_incoming" />
+ 		<LinearLayout
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:orientation="vertical">
+  				<TextView style="@style/CallStatBox.Title" android:text="@string/Incoming"/>
+  				<TextView style="@style/CallStatBox.Count" android:id="@+id/IncomingCount" android:text="0"/>
+  		</LinearLayout>
+ 	</LinearLayout>
+ 	<TableLayout
+ 	  	android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:stretchColumns="*">
+ 		<TableRow>
+ 			<TextView style="@style/CallStatBox.Text" android:text="@string/Sum_Incoming"/>
+ 			<TextView style="@style/CallStatBox.Data" android:text="0" android:id="@+id/IncomingDurAll"/>
+ 		</TableRow>
+ 		<TableRow>
+ 			<TextView style="@style/CallStatBox.Text" android:text="@string/Average_Incoming"/>
+ 			<TextView style="@style/CallStatBox.Data" android:text="0" android:id="@+id/IncomingDurAverage"/>
+ 		</TableRow>
+ 	</TableLayout>
+ </LinearLayout>
+ <TextView android:layout_width="8dp" android:layout_height="wrap_content" />
+ <LinearLayout
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:orientation="vertical"
+  	android:layout_weight="0.5"
+  	android:background="@drawable/contact_content_category"
+  	android:paddingBottom="4dp">
+ 	<LinearLayout   
+ 	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:orientation="horizontal">
+  		<ImageView style="@style/CallStatBox.Image" android:src="@drawable/call_outgoing" />
+ 		<LinearLayout
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:orientation="vertical">
+  				<TextView style="@style/CallStatBox.Title" android:text="@string/Outgoing"/>
+  				<TextView style="@style/CallStatBox.Count" android:id="@+id/OutgoingCount" android:text="0"/>
+  		</LinearLayout>
+ 	</LinearLayout>
+ 	<TableLayout
+ 	  	android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:stretchColumns="*">
+ 		<TableRow>
+ 			<TextView style="@style/CallStatBox.Text" android:text="@string/Sum_Outgoing"/>
+ 			<TextView style="@style/CallStatBox.Data" android:text="0" android:id="@+id/OutgoingDurAll"/>
+ 		</TableRow>
+ 		<TableRow>
+ 			<TextView style="@style/CallStatBox.Text" android:text="@string/Average_Outgoing"/>
+ 			<TextView style="@style/CallStatBox.Data" android:text="0" android:id="@+id/OutgoingDurAverage"/>
+ 		</TableRow>
+ 	</TableLayout>
+ </LinearLayout>
+</TableRow>
+<TableRow><TextView android:layout_width="wrap_content" android:layout_height="8dp" /></TableRow>
+<TableRow>
+ <LinearLayout
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:orientation="vertical"
+  	android:layout_weight="0.5"
+  	android:background="@drawable/contact_content_category">
+ 	<LinearLayout   
+ 	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:orientation="horizontal">
+  		<ImageView style="@style/CallStatBox.Image" android:src="@drawable/call_missed" />
+ 		<LinearLayout
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:orientation="vertical">
+  				<TextView style="@style/CallStatBox.Title" android:text="@string/Missed"/>
+  				<TextView style="@style/CallStatBox.Count" android:id="@+id/MissedCount" android:text="0"/>
+  		</LinearLayout>
+ 	</LinearLayout>
+ </LinearLayout>
+ <TextView android:layout_width="8dp" android:layout_height="wrap_content" />
+ <LinearLayout
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:orientation="vertical"
+  	android:layout_weight="0.5"
+  	android:background="@drawable/contact_content_category">
+ 	<LinearLayout   
+ 	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:orientation="horizontal">
+  		<ImageView style="@style/CallStatBox.Image" android:src="@drawable/call_failedoutgoing" />
+ 		<LinearLayout
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:orientation="vertical">
+  				<TextView style="@style/CallStatBox.Title" android:text="@string/FailedOutgoing"/>
+  				<TextView style="@style/CallStatBox.Count" android:id="@+id/FailedOutgoingCount" android:text="0"/>
+  		</LinearLayout>
+ 	</LinearLayout>
+ </LinearLayout>
+</TableRow>
+<TableRow><TextView android:layout_width="wrap_content" android:layout_height="8dp" /></TableRow>
+</TableLayout>
+  <LinearLayout 			
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+	<LinearLayout android:id="@+id/pie_containerA" 
+						android:layout_width="wrap_content" 
+						android:layout_height="match_parent" 
+						android:orientation="vertical"
+						android:layout_weight="0.5"
+						android:background="@drawable/contact_content_category">
+						<TextView style="@style/CallStatBox.Text.Piechart" android:text="Incoming and Outgoing Count" android:layout_weight="0.2"/>
+						</LinearLayout>
+	<TextView android:layout_width="8dp"  android:layout_height="match_parent"/>
+	<LinearLayout android:id="@+id/pie_containerB" 
+						android:layout_width="wrap_content" 
+						android:layout_height="match_parent" 
+						android:orientation="vertical"
+						android:layout_weight="0.5"
+						android:background="@drawable/contact_content_category">
+						<TextView style="@style/CallStatBox.Text.Piechart" android:text="Incoming and Outgoing Duration" android:layout_weight="0.2"/>
+						</LinearLayout>
+  </LinearLayout>
+</LinearLayout>

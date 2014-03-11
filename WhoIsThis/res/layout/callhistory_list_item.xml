@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:paddingLeft="5dp"
+	android:paddingRight="5dp">
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:background="@drawable/list_item_bg">
+	  <ImageView android:id="@+id/CallHistory_Type"
+	  	android:layout_gravity="center_vertical" 
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content" 
+	  	android:paddingLeft="5dp"/>
+	  <TextView android:id="@+id/CallHistory_Number"
+		android:text="Phone Number 123"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:textSize="16dp"
+	    android:textStyle="bold"
+	    android:textColor="@color/text_color"
+	    android:paddingLeft="14dp"
+	    android:paddingTop="8dp"
+	    android:paddingBottom="8dp"    
+	    android:layout_weight="0.9"/>
+		<LinearLayout 
+			android:orientation="vertical" 
+			android:layout_weight="0.1" 
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content">
+		  <TextView android:id="@+id/CallHistory_Date"
+			android:text="Date?"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="14dp"
+		    android:textStyle="normal"
+		    android:paddingTop="4dp"
+		    android:paddingRight="4dp"
+		    android:layout_gravity="right"/>
+		  <TextView android:id="@+id/CallHistory_Duration"
+			android:text="0"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="14dp"
+		    android:textStyle="normal"
+		    android:paddingBottom="4dp"
+		    android:paddingRight="4dp"
+		    android:layout_gravity="right"/>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
